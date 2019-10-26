@@ -15,7 +15,7 @@ class WorkExperience {
     }
     //Hämta alla utbildningar
     public function getWorkXP() {
-        $sql = "SELECT * FROM workExperience ORDER BY workID DESC;";
+        $sql = "SELECT * FROM workexperience ORDER BY workID DESC;";
         $result = $this->db->query($sql);
 
         return mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -23,7 +23,7 @@ class WorkExperience {
     //Hämta specifik utbildning
     public function getSpecWorkXP($id) {
         $id = intval($id);
-        $sql = "SELECT * FROM workExperience WHERE workID=$id;";
+        $sql = "SELECT * FROM workexperience WHERE workID=$id;";
         $result = $this->db->query($sql);
 
         return mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -34,7 +34,7 @@ class WorkExperience {
         if (!$this->setWorkPlace($workPlace)) {return false; }
         if (!$this->setWorkStart($workStart)) {return false; }
         if (!$this->setWorkStop($workStop)) {return false; }
-        $sql = "INSERT INTO workExperience(workTitle, workPlace, workStart, workStop) VALUES('" . $this->workTitle . "', '" . $this->workPlace . "', '" . $this->workStart . "', '" . $this->workStop . "');";
+        $sql = "INSERT INTO workexperience(workTitle, workPlace, workStart, workStop) VALUES('" . $this->workTitle . "', '" . $this->workPlace . "', '" . $this->workStart . "', '" . $this->workStop . "');";
         return $result = $this->db->query($sql);
     }
     //Uppdatera utbildning
@@ -44,13 +44,13 @@ class WorkExperience {
         if (!$this->setWorkStart($workStart)) {return false; }
         if (!$this->setWorkStop($workStop)) {return false; }
         $id = intval($id);
-        $sql = "UPDATE workExperience SET workTitle='" . $this->workTitle . "', workPlace='" . $this->workPlace . "', workStart='" . $this->workStart . "', workStop='" . $this->workStop . "' WHERE workID=$id;";
+        $sql = "UPDATE workexperience SET workTitle='" . $this->workTitle . "', workPlace='" . $this->workPlace . "', workStart='" . $this->workStart . "', workStop='" . $this->workStop . "' WHERE workID=$id;";
         return $result = $this->db->query($sql);
     }
     //Radera utbildning
     public function deleteWorkXP($id) {
         $id = intval($id);
-        $sql = "DELETE FROM workExperience WHERE workID=$id;";
+        $sql = "DELETE FROM workexperience WHERE workID=$id;";
         return $result = $this->db->query($sql);
     }
     //Kontrollera edName-input

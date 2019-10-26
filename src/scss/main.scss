@@ -1,0 +1,86 @@
+//Logga ut-knapp
+#logoutBtn {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    float: right;
+}
+//Meny
+nav {
+    width: 80%;
+    border-bottom: 1px solid black;
+    li {
+        display: inline;
+        list-style: none;
+        padding: 20px;
+        cursor: pointer;
+        background-color: white;
+        border: none;
+        position: relative;
+        top: -4px;
+    }
+    .current {
+        border: 1px solid black;
+        border-bottom: none;
+        position: relative;
+        top: 0;
+    }
+}
+.close {
+    display: none;
+}
+//Sektioner
+#education, #workxp, #websites {
+    position: relative;
+    //Tabeller
+    table {
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        max-width: 600px;
+        font-size: 0.8em;
+        border-collapse: collapse;
+        tr {
+            border-bottom: 1px solid black;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+        .th1 {
+            width: 5%;
+        }
+        .th2 {
+            width: 25%;
+        }
+        .th3 {
+            width: 25%;
+        }
+        .th4 {
+            width: 30%;
+        }
+    }
+    //Formulär
+    div {
+        position: absolute;
+        right: 30px;
+        max-width: 300px;
+        margin: 30px;
+    }
+    .updateform {
+        top: 300px;
+    }
+    form {
+        label {
+            display: block;
+            margin-bottom: 15px;
+        }
+        input, textarea {
+            margin-left: 10px;
+        }
+        textarea {
+            width: 80%;
+            height: 100px;
+        }
+    }
+}

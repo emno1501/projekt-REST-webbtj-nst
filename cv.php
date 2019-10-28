@@ -1,5 +1,5 @@
 <?php
-//Headerinfo: typ: JSON, Tillåt att webbtjänst är tillgänglig utanför egen domän, tillåt PUT & DELETE.
+//Headerinfo: typ: JSON, Tillåt åtkomst för specifik källa, tillåt metoderna GET, POST, PUT & DELETE.
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Origin: http://studenter.miun.se/~emno1501/dt173g/projekt/cv/index.php");
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");

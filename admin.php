@@ -28,6 +28,7 @@ if (isset($_POST['login'])) {
 <html lang="sv-SE">
     <head>
         <meta charset="utf-8" />
+        <title>Administrationsgränssnitt CV-webbtjänst</title>
     </head>
     <body>
         <form method="post" action="admin.php">

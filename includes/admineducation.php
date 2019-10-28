@@ -1,15 +1,15 @@
 <section id="education" class="open">
             <table id="edTable">
-                <tr>
-                    <thead>
+                <thead>
+                    <tr>
                         <th class="th1">ID</th>
                         <th class="th2">Utbild.namn</th>
                         <th class="th3">Lärosäte</th>
                         <th class="th4">Start- och slutdatum</th>
                         <th class="th5"></th>
-                    </thead>
-                    <tbody id="edTbody"></tbody>
-                </tr>
+                    </tr>
+                </thead>
+                <tbody id="edTbody"></tbody>
             </table>
             <div>
                 <h2>Lägg till utbildning</h2>

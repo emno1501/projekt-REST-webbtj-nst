@@ -18,6 +18,7 @@ if (isset($_GET['logout'])) {
 <html lang="sv-SE">
     <head>
         <meta charset="utf-8" />
+        <title>Administrationsgränssnitt CV-webbtjänst</title>
         <link rel="stylesheet" type="text/css" href="pub/css/main.css" />
     </head>
     <body>

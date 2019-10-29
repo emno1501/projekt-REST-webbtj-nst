@@ -26,7 +26,7 @@ När data tas bort, läggs till eller uppdateras, uppdateras automatiskt tabelle
 
 Högst upp i högra hörnet finns en Logga ut-knapp som tar en tillbaka till inloggningssidan.
 
-Inloggning till administrationsgränssnitt:
+**Inloggning till administrationsgränssnitt:**
 
 Användarnamn: adminEmmasCV
 

@@ -3,7 +3,12 @@
 Webbtjänsten har stöd för CRUD och gör anrop mot en MySQL-databas. Vilken metod som anropet innehåller kontrolleras med en switch-sats som sedan gör efetrfrågat anrop mot databasen.
 Metoderna POST, PUT och DELETE är lösenordsskyddade, man behöver alltså vara inloggad i administrationsgränssnittet för att kunna lägga till, ändra eller ta bort data.
 
-URL till webbtjänst: http://studenter.miun.se/~emno1501/dt173g/projekt/rest/cv.php
+URL till webbtjänst: http://studenter.miun.se/~emno1501/dt173g/projekt/rest/cv.php/ + kategori* 
+
+***kategorier** : 
+* education
+* workexperience
+* websites
 
 ## För att göra anrop mot webbtjänsten
 

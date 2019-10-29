@@ -25,3 +25,7 @@ När ID:t fylls in i uppdateringsformuläret fylls automatiskt resten av fälten
 När data tas bort, läggs till eller uppdateras, uppdateras automatiskt tabellen utan att sidan behöver laddas om.
 
 Högst upp i högra hörnet finns en Logga ut-knapp som tar en tillbaka till inloggningssidan.
+
+Inloggning till administrationsgränssnitt:
+Användarnamn: adminEmmasCV
+Lösenord: password123
